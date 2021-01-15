@@ -1,0 +1,67 @@
+body{
+  font-size:16px;
+  font-family:Verdana,sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+
+.container{
+  width:300px;
+  margin: auto;
+}
+
+.container h1{
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 0;
+  font-weight: normal;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container ul{
+  padding: 0;
+  list-style: none;
+}
+
+.container li{
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.container input[type="checkbox"]{
+  margin-right: 7px;
+}
+
+.cmd{
+  font-size: 14px;
+  cursor:pointer;
+  color: rgb(228, 92, 92);
+  margin-left: 10px;
+
+
+}
+
+.container input[type="text"]{
+  padding: 2px;
+  margin-right: 5px;
+}
+
+h1>span{
+  color: rgb(164, 164, 164);
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+h1>button{
+  float: right;
+}
+
+.fa-trash-alt{
+  width: 50px;
+  height: 50px;
+}
+
+.done{
+  text-decoration: line-through;
+  color:#ccc;
+}
