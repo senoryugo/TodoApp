@@ -65,3 +65,11 @@ h1>button{
   text-decoration: line-through;
   color:#ccc;
 }
+
+@media screen and (max-width:768px){
+  
+    .container input[type="text"]{
+      font-size: 16px;
+    }
+  
+}
