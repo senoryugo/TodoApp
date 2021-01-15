@@ -1,6 +1,6 @@
 body{
   font-size:16px;
-  /* font-family:Verdana,sans-serif; */
+  font-family:Verdana,sans-serif;
   background-color: rgb(244, 244, 244);
 }
 
@@ -24,7 +24,7 @@ body{
 
 .container li{
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .container input[type="checkbox"]{
@@ -41,7 +41,8 @@ body{
 }
 
 .container input[type="text"]{
-  margin-right: 7px;
+  padding: 3px 0;
+  margin-right: 5px;
 }
 
 h1>span{
@@ -60,30 +61,12 @@ h1>button{
   height: 50px;
 }
 
-
-.container input[type="text"]{
-  font-size: 16px;
-}
-
-input[type="checkbox"]{
-  transform: scale(1.2);
-}
-
-h1>button{
-  padding: 3px 7px;
-  border-radius: ;
-}
-
-form input[type="submit"]{
-  padding: 0 7px;
-}
-
 .done{
   text-decoration: line-through;
   color:#ccc;
 }
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width:768px){
   
     .container input[type="text"]{
       font-size: 16px;
@@ -91,12 +74,26 @@ form input[type="submit"]{
 
     h1>button{
       padding: 3px 7px;
-      border-radius: 15%;
+      border-radius: 10%;
     }
 
-    form input[type="submit"]{
+    form input[value="追加"]{
       padding: 3px 7px;
-      border-radius: 15%;
+      border-radius: 10%;
+    }
+
+    .container input[type="checkbox"]{
+      transform: scale(1.2);
+    }
+
+    .container li{
+      line-height: 1.6;
+      font-size: 18px;
+    }
+
+    .container h1{
+      font-size: 26px;
+
     }
   
-} */
+}
