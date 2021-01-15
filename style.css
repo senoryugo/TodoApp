@@ -74,12 +74,12 @@ h1>button{
 
     h1>button{
       padding: 3px 7px;
-      border-radius: 10%;
+      border-radius: 15%;
     }
 
     form input[type="submit"]{
       padding: 3px 7px;
-      border-radius: 10%;
+      border-radius: 15%;
     }
   
 }
