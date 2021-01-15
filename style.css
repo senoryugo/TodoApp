@@ -74,12 +74,12 @@ h1>button{
 
     h1>button{
       padding: 3px 7px;
-      border-radius: 10%;
+      border-radius: 15%;
     }
 
-    form input[value="追加"]{
-      padding: 3px 7px;
-      border-radius: 10%;
+   input[type="submit"]{
+      padding: 2px 7px;
+      border-radius: 15%;
     }
 
     .container input[type="checkbox"]{
