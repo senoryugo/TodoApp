@@ -1,6 +1,6 @@
 body{
   font-size:16px;
-  font-family:Verdana,sans-serif;
+  /* font-family:Verdana,sans-serif; */
   background-color: rgb(244, 244, 244);
 }
 
@@ -24,7 +24,7 @@ body{
 
 .container li{
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .container input[type="checkbox"]{
@@ -41,7 +41,6 @@ body{
 }
 
 .container input[type="text"]{
-  padding: 3px;
   margin-right: 7px;
 }
 
@@ -61,12 +60,30 @@ h1>button{
   height: 50px;
 }
 
+
+.container input[type="text"]{
+  font-size: 16px;
+}
+
+input[type="checkbox"]{
+  transform: scale(1.2);
+}
+
+h1>button{
+  padding: 3px 7px;
+  border-radius: ;
+}
+
+form input[type="submit"]{
+  padding: 0 7px;
+}
+
 .done{
   text-decoration: line-through;
   color:#ccc;
 }
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
   
     .container input[type="text"]{
       font-size: 16px;
@@ -78,8 +95,8 @@ h1>button{
     }
 
     form input[type="submit"]{
-      padding: 10px 20px;
-      border-radius: 50%;
+      padding: 3px 7px;
+      border-radius: 15%;
     }
   
-}
+} */
