@@ -78,8 +78,8 @@ h1>button{
     }
 
     form input[type="submit"]{
-      padding: 3px 7px;
-      border-radius: 15%;
+      padding: 10px 20px;
+      border-radius: 50%;
     }
   
 }
